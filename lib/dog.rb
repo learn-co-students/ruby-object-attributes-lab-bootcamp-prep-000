@@ -1,9 +1,16 @@
 class Dog
-  def bark
-    puts "Woof!"
+  def name
+    @name
+  end
+
+  def name=(name)
+    @name = name
+  end
+
+  def breed
+    @breed
+  end
+  def breed=(breed)
+    @breed = breed
   end
 end
-
-fido = Dog.new
-snoopy = Dog.new
-lassie = Dog.new

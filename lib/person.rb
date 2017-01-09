@@ -1,11 +1,14 @@
 class Person
-  def talk
-    puts "Hello World"
+  def name
+    @name
   end
-  def walk
-    puts "The Person is walking"
+  def name=(name)
+    @name = name
+  end
+  def job
+    @job
+  end
+  def job=(job)
+    @job = job
   end
 end
-
-adele_goldberg= Person.new
-alan_kay= Person.new
