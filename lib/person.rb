@@ -6,7 +6,7 @@ class Person
   def name
     @name
   end
-  
+
   def job=(person_job)
     @job = person_job
   end
@@ -15,3 +15,11 @@ class Person
     @job
   end
 end
+
+# class Person
+#   attr_reader(:name, :job)
+#   def initiaize
+#     @name = ''
+#     @job = ''
+#   end
+# end
