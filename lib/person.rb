@@ -11,9 +11,9 @@ class Person
     return @job
   end
 
+  #variable names must match spec files exactly
   def job=(new_job)
     @job = new_job
   end
 
 end
-
