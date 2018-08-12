@@ -1,21 +1,19 @@
 class Person
-   def name=(beyonce)
-     @person_name = beyonce
-   end
 
-   def name
-     @person_name
-   end
+  def name
+    @name
+  end
 
-   def job=(singer)
-     @job_name = singer
-   end
+  def name=(name)
+    @name=name
+  end
 
-   def job
-     @job_name
-   end
- end
+  def job
+    @job
+  end
 
- beyonce = Person.new
- beyonce.name = "Beyonce"
- beyonce.job = "Singer"
+  def job=(job)
+    @job=job
+  end
+
+end
