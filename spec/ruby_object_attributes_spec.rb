@@ -1,4 +1,5 @@
 require 'spec_helper'
+require_relative '../lib/dog'
 
 describe 'Dog' do
   it 'is defined within lib/dog.rb' do
