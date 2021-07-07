@@ -7,7 +7,7 @@ describe 'Dog' do
   end
 
   context 'with names' do
-    describe '#name=' do
+    describe '#na' do
       it 'writes the name of the dog to an instance variable @name' do
         fido = Dog.new
         fido.name = "Fido"
@@ -54,7 +54,7 @@ describe 'Person' do
   end
 
   context 'with names' do
-    describe '#name=' do
+    describe '#namer' do
       it 'writes the name of the person to an instance variable @name' do
         beyonce = Person.new
         beyonce.name = "Beyonce"
@@ -74,7 +74,7 @@ describe 'Person' do
   end
 
   context 'with jobs' do
-    describe '#job=' do
+    describe '#job' do
       it 'writes the job of the person to an instance variable @job' do
         beyonce = Person.new
         beyonce.job = "Singer"
@@ -83,7 +83,7 @@ describe 'Person' do
       end
     end
 
-    describe '#job' do
+    describe '#jober' do
       it 'reads the job of the person from an instance variable @job' do
         beyonce = Person.new
         beyonce.instance_variable_set(:@job, "Singer")
